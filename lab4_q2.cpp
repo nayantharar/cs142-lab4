@@ -248,10 +248,10 @@ class queue{
 
 int main(){
 	queue q1;
-	q1.enqueue(89);
-	q1.enqueue(78);
-	q1.enqueue(25);
-	q1.enqueue(43);
+	q1.enqueue(1);
+	q1.enqueue(2);
+	q1.enqueue(3);
+	q1.enqueue(4);
 	q1.topelement();
 	q1.display();
 	q1.isempty();cout<<q1.isempty()<<endl;
